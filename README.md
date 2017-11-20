@@ -1,6 +1,10 @@
 # Laravel-Reporting
 Basic tools for building reports
 
+```
+composer require binarycabin/laravel-reporting
+```
+
 ## Available Traits
 
 ### \BinaryCabin\LaravelReporting\Traits\Sortable
