@@ -1,0 +1,27 @@
+{
+    "name": "binarycabin/laravel-reporting",
+    "description": "Basic tools for building reports",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Kilroy",
+            "email": "jeff@binarycabin.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BinaryCabin\\LaravelReporting\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BinaryCabin\\LaravelReporting\\Providers\\LaravelReportingServiceProvider"
+            ],
+            "aliases": {
+                "Reporting": "BinaryCabin\\LaravelReporting\\Facades\\Reporting"
+            }
+        }
+    }
+}
